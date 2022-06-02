@@ -1,6 +1,6 @@
 package model;
 
-public class GraphicDesignTask extends Task{
+public class GraphicDesignTask extends Task {
     private String platform;
     private String output;
 

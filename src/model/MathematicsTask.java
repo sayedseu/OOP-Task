@@ -1,6 +1,6 @@
 package model;
 
-public class MathematicsTask extends Task{
+public class MathematicsTask extends Task {
     private String field;
 
     public MathematicsTask(String title, String description, String createdTime, String updateTime, String field) {

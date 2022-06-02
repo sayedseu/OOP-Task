@@ -3,7 +3,6 @@ import filter.FilterManager;
 import filter.GraphicDesignTaskFilter;
 import filter.MathematicsTaskFilter;
 import filter.ProgramingTaskFilter;
-import model.ProgramingTask;
 import model.RootResponse;
 import model.Task;
 import parser.Parser;

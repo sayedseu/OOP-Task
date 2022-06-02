@@ -7,14 +7,16 @@ public class RootResponse {
     private String language;
     private String field;
     private String output;
+    private String type;
 
-    public RootResponse(String titile, String description, String plaforms, String language, String field, String output) {
+    public RootResponse(String titile, String description, String plaforms, String language, String field, String output, String type) {
         this.titile = titile;
         this.description = description;
         this.plaforms = plaforms;
         this.language = language;
         this.field = field;
         this.output = output;
+        this.type = type;
     }
 
     public String getTitile() {
@@ -63,5 +65,13 @@ public class RootResponse {
 
     public void setOutput(String output) {
         this.output = output;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 }

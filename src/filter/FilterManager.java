@@ -16,7 +16,7 @@ public class FilterManager {
         this.taskFilter = taskFilter;
     }
 
-    public List<Task> filter(List<RootResponse> responses){
+    public List<Task> filter(List<RootResponse> responses) {
         return taskFilter.filter(responses);
     }
 }
